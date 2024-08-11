@@ -3,72 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EV Slot Booking</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        
-        <h1>EV Slot Booking</h1>
-
-        <!-- Area Selection -->
-        <div class="section">
-            <label for="areaSelect">Select Area:</label>
-            <select id="areaSelect">
-                <option value="Cinema Hall">Cinema Hall parking area</option>
-                <option value="School">School parking area</option>
-                <option value="Office">Office parking area</option>
-            </select>
-        </div>
-
-        <!-- Slot Selection -->
-        <div class="section">
-            <label for="slotSelect">Select Slot:</label>
-            <select id="slotSelect">
-                <option value="Slot 1">Slot 1</option>
-                <option value="Slot 2">Slot 2</option>
-                <option value="Slot 3">Slot 3</option>
-            </select>
-        </div>
-        <div class="section">
-            <label for="timeselect">Select time:</label>
-            <select id="timeselect">
-                <option value="time 1">10AM to 01 PM</option>
-                <option value="time 2">01 pm to 04 pm</option>
-                <option value="time 3">04 pm to 07 pm </option>
-                <!-- <option value="time 4">07 pm to 10 pm</option> -->
-            </select>
-        </div>
-
-        <!-- Booking Information -->
-        <div class="section">
-            <button id="bookSlot">Book Slot</button>
-        </div>
-
-        <div id="bookingInfo">
-            <h2>Booking Information:</h2>
-            <p id="areaSelected">Area Selected: -</p>
-            <p id="slotBooked">Slot Booked: -</p>
-            <p id="timebooked">time booked: -</p>
-        </div>
-        
-        <div id="mapSection">
-            <h2>Location Map:</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57292.28604745336!2d72.98998958962581!3d26.17168811949304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418b6667a4681f%3A0x14398bf652f4035e!2sRAY%20SCHOOL%20OF%20EXCELLENCE!5e0!3m2!1sen!2sin!4v1723355838818!5m2!1sen!2sin"
-                width="50px" 
-                height="50px" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        </div>
-    
-    
-
-
-    <script src="script.js"></script>
+    <div class="wrapper">
+        <form action="">
+            <h1> login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="remember-forgot">
+                <label> <input type="checkbox">remember me </label>  
+                <a href="./forgot.html"> forget password</a>          
+            </div>
+            <a href="./ev.html" class="button" style="color: black;">Login</a>
+            <div class="register-link" alt="register">
+                <p> dont have an account? <a href="./register.html">register</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
