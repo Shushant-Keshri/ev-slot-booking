@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(shuahnt.png.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    background-color: rgb(67, 229, 18);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #894caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d11212;
+}
+
+#bookingInfo {
+    margin-top: 20px;
+}
+
+#bookingInfo h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#bookingInfo p {
+    margin: 5px 0;
+}
+#mapSection h2 {
+    margin-bottom: 10px;
+    color: #191919;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+#mapsection {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+h2{
+    color: #333;
+    margin-bottom: 60px;
+}
+iframe{
+    width:100%;
+    height: 100px;
+    filter:invert(100%) ;
+}
